@@ -1,0 +1,33 @@
+
+#heading
+{
+    font-size: 30px;
+    width: 100%;
+    margin: 0px;
+    top:0;
+    position: fixed;
+    background-color:#cab192;
+    padding: 15px;
+    color: white;
+}
+
+#status,#objects_detected{
+    font-size: 18px;
+    padding: 10px;
+    background-color: #4b4c48;
+    color: white;
+    border-radius: 5px;
+    float:none;
+}
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+canvas{
+    border-radius: 5px;
+    border-color: #cab192;
+    box-shadow: 10px 10px 40px #cab192;
+    text-transform: uppercase;
+}
+
